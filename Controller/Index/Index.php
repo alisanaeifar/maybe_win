@@ -1,13 +1,9 @@
 <?php
-
-declare(strict_types=1);
 namespace Mastering\SampleModule\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
-use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\App\Action\Context;
-use Magento\Framework\Controller\ResultInterface;
 use Mastering\SampleModule\Model\Config;
 class Index extends Action
 {
@@ -27,8 +23,11 @@ class Index extends Action
 
         $this->jafar=$aliConfig;
     }
+//
 
-
+    /**
+     * @return \Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface
+     */
     public function execute()
     {
         if ($this->jafar->isEnabled()){

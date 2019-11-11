@@ -1,6 +1,4 @@
 <?php
-
-declare(strict_types=1);
 namespace Mastering\SampleModule\Controller\Adminhtml\Post;
 
 use Magento\Backend\App\Action;

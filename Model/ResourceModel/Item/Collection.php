@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 namespace Mastering\SampleModule\Model\ResourceModel\Item;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;

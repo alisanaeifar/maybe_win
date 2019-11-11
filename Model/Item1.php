@@ -1,6 +1,4 @@
 <?php
-
-declare(strict_types=1);
 namespace Mastering\SampleModule\Model;
 use Magento\Framework\Model\AbstractModel;
 
