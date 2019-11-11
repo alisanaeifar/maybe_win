@@ -1,6 +1,6 @@
 <?php
 
-
+declare(strict_types=1);
 namespace Mastering\SampleModule\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
@@ -37,10 +37,7 @@ class Save extends Action
         parent::__construct($context);
     }
 
-    /**
-     * @return \Magento\Framework\App\ResponseInterface|\Magento\Framework\Controller\ResultInterface
-     * @throws \Exception
-     */
+
     public function execute()
     {
         $query['name'] = $this->getRequest()->getPostValue("name");
