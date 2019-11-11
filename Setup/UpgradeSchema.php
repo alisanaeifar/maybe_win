@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 namespace Mastering\SampleModule\Setup;
 
 use Magento\Framework\DB\Ddl\Table;
