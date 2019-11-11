@@ -1,6 +1,6 @@
 <?php
 
-
+declare(strict_types=1);
 namespace Mastering\SampleModule\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
